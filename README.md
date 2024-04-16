@@ -8,13 +8,15 @@ En este proyecto se dará a conocer la realización de forma detalla de la const
 
 ------------
 
-### Requisitos para construir el proyecto.
+## Requisitos para construir el proyecto.
 
 ------------
 
 
 <p>
+	
 Para construir este algoritmo en `pseudocodigo` deberá cumplir con los siguientes requisitos:
+
 </p>
 
 - Lea el precio original del producto.
@@ -29,7 +31,7 @@ Para construir este algoritmo en `pseudocodigo` deberá cumplir con los siguient
 
 
 
-### Planteamiento del problema.
+## Planteamiento del problema.
 
 ------------
 
@@ -48,7 +50,7 @@ Un cliente desea comprar un par de zapatos deportivos en línea. A continuación
 ------------
 
 
-### Construcción del algoritmo paso a paso.
+## Construcción del algoritmo paso a paso.
 
 ------------
 
