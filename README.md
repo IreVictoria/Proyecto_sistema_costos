@@ -25,3 +25,36 @@ Para construir este algoritmo en `pseudocodigo` deberá cumplir con los siguient
 
 ------------
 
+
+### Planteamiento del problema.
+
+------------
+
+
+<p>
+Un cliente desea comprar un par de zapatos deportivos en línea. A continuación, se presentan los detalles del producto y la información del cliente:
+</p>
+- Precio original: $100.
+- Cupón descuento: 10% de descuento.
+- IVA (impuesto al valor agregado): 12%
+- Cantidad: 2 pares de zapatos deportivos.
+- Peso paquete: 3kg
+- Destino del envío: Nueva York.
+
+------------
+
+### Construcción del algoritmo paso a paso.
+
+------------
+
+
+<p>
+Primero debemos declarar las variables de nuestro algoritmo:
+</p>
+- `precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2`. Estas variables almacenarán los distintos valores del producto solicitados en el algoritmo que serán declarados como Reales. 
+- `i,pedidos,descuento,pedidofinal`, estas variables serán declaradas como  enteros ya que estas serán utilizadas para controlar los bucles y las estructuras condicionales para realizar cálculos.
+```
+Definir precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2 como real
+	Definir i,pedidos,descuento,pedidofinal Como Entero
+```
+<p>
