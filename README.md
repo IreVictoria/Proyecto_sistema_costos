@@ -1,7 +1,9 @@
 [![banner-udd.png](https://i.postimg.cc/N09x03s9/banner-udd.png)](https://postimg.cc/R3mtsbn4)
 # Proyecto N°1: Sistema de costos.
 <p>
-En este proyecto se dará a conocer la realización de forma detalla de la construcción de un algoritmo en pseudocodigo que simule un `Sistema de costo` realizado en el programa Pseint. A continuación, se mostrarán los requisitos del proyecto, planteamiento del problema y la resolución del algoritmo paso a paso 
+	
+En este proyecto se dará a conocer la realización de forma detalla de la construcción de un algoritmo en pseudocodigo que simule un `Sistema de costo` realizado en el programa Pseint. A continuación, se mostrarán los requisitos del proyecto, planteamiento del problema y la resolución del algoritmo paso a paso. 
+
 </p>
 
 ------------
@@ -84,14 +86,19 @@ Luego tendremos las operaciones aritméticas realizadas en el programa Pseint qu
 ```
 //Realizar cálculo para cupón de descuento 
 	descuentoCupon<-precioOriginal-(precioOriginal*0.1)
+
 	//Realizar cálculo para aplicar el IVA al producto con descuento
 	precioIVA<-descuentoCupon*1.12
+
 	//Realizar cálculo de descuento por cantidad de producto
 	descuentoxCantidad<-precioIVA-(precioIVA*0.05)
+
 	//Realizar cálculo de costo de envio 
 	costoEnvio<-10+(2*3)
+
 	//Realizar cálculo del producto final más el envío de un par
 	precioFinal1<-(precioIVA*1)+costoEnvio
+
 	//Realizar cálculo del producto final más el envío de dos pares
 	precioFinal2<-(descuentoxCantidad*2)+costoEnvio
 		
@@ -100,6 +107,7 @@ A continuación, se creará un `arreglo unidimensional` para leer el número de 
 		
 ```
 //Crear un array para realizar lista de pedidos de los productos
+
 	Dimension pedidos[1]	
 	//Realizar ingreso de pedidos 
 	Para i<-1 Hasta 1 Con Paso 1 Hacer
@@ -126,6 +134,7 @@ Una vez realizado esta parte del algoritmo se hará una estructura de control co
 
 ```
 //Agregar precio y cantidad del producto pedido por el cliente
+
 	Escribir "Ingrese cantidad de producto solicitado por el cliente:"
 	leer cantidad
 	Si cantidad>=2 Entonces
@@ -144,7 +153,8 @@ Ahora realizaremos nuevamente otra estructura de control condicional `si... Ento
 
 
 ```
-// Calculo final del producto más el envío 
+// Calculo final del producto más el envío
+
 	Escribir "Ingrese cantidad final del pedido:"
 	Leer pedidoFinal
 	Si pedidoFinal>=2 Entonces
@@ -161,7 +171,8 @@ Y para concluir el algoritmo se nos pide en el proyecto detallar cada producto c
 </p>
 
 ```
-//Mostrar valores desglosados 
+//Mostrar valores desglosados
+
 	Escribir "Los valores deglosados de los productos son:"
 	Escribir "El precio original del producto es de = $", precioOriginal
 	Escribir "El precio del producto con cupón de descuento es de = $", descuentoCupon
