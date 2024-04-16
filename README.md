@@ -35,6 +35,7 @@ Para construir este algoritmo en `pseudocodigo` deberá cumplir con los siguient
 <p>
 Un cliente desea comprar un par de zapatos deportivos en línea. A continuación, se presentan los detalles del producto y la información del cliente:
 </p>
+
 - Precio original: $100.
 - Cupón descuento: 10% de descuento.
 - IVA (impuesto al valor agregado): 12%
@@ -53,7 +54,9 @@ Un cliente desea comprar un par de zapatos deportivos en línea. A continuación
 <p>
 Primero debemos declarar las variables de nuestro algoritmo:
 </p>
-- `precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2`. Estas variables almacenarán los distintos valores del producto solicitados en el algoritmo que serán declarados como Reales. 
+
+- `precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2`. Estas variables almacenarán los distintos valores del producto solicitados en el algoritmo que serán declarados como Reales.
+  
 - `i,pedidos,descuento,pedidofinal`, estas variables serán declaradas como  enteros ya que estas serán utilizadas para controlar los bucles y las estructuras condicionales para realizar cálculos.
 
 ```
@@ -114,8 +117,10 @@ A continuación, se creará un `arreglo unidimensional` para leer el número de 
 
 Aquí se crea el `arreglo unidimensional` se le pide al usuario que ingrese la cantidad de pedido realizado por el cliente, para luego utilizar el bucle `para ` que se ejecutara solo una vez (i=1 hasta i=1) el cual nos dará a conocer el número de pedido ingresado que se almacenara en el arreglo `pedidos [i]`.
 
+
 Una vez realizado esta parte del algoritmo se hará una estructura de control condicional el cual utilizaremos el `si...entonces`, donde ingresaremos las condiciones en las sentencias de bloque, si la sentencia es verdadera, se ejecuta el bloque de sentencia uno; de lo contrario, se ejecuta el bloque de sentencia dos. En este caso será según lo requerido por el usuario el cual se pide que ingrese la cantidad de pedidos por el cliente, dependiendo si es 1 pedido o 2 pedidos se realizaran los cálculos aritméticos adecuados para cada sentencia y se obtendrá el valor del producto con descuento respectivamente según lo solicitado. 
 </p>
+
 
 ```
 //Agregar precio y cantidad del producto pedido por el cliente
@@ -128,9 +133,11 @@ Una vez realizado esta parte del algoritmo se hará una estructura de control co
 	Fin Si
 ```
 
+
 <p>
 Ahora realizaremos nuevamente otra estructura de control condicional `si... Entonces` para que se pueda obtener el resultado final de producto que es el descuento correspondiente más el valor del envío. Aquí le solicitaremos al usuario que indique la cantidad final del producto requerido dependiendo si es 1 o 2 y de esta manera el control de flujo ejecutara cada sentencia según la cantidad final del articulo solicitado. 
 </p>
+
 
 ```
 // Calculo final del producto más el envío 
@@ -142,6 +149,7 @@ Ahora realizaremos nuevamente otra estructura de control condicional `si... Ento
 		Escribir "El precio total de 1 par más el costo de envío es de $", precioFinal1
 	Fin Si
 ```
+
 <p>
 Y para concluir el algoritmo se nos pide en el proyecto detallar cada producto con su respectivo valor en este caso en el `programa Pseint` se utiliza el comando `Escribir` y entre "comillas" ingresaremos el texto con la indicación dada para cada valor que queremos dar a conocer se cierran las comillas y al lado del texto escribiremos el nombre de la variable ya declaradas en el inicio que almacenan cada valor aritmético según lo explicado anteriormente. A continuación, se muestra el desglose de cada valor con descuento cupón, impuesto, descuento por cantidad y costo envió:
 </p>
@@ -166,6 +174,7 @@ Y para concluir el algoritmo se nos pide en el proyecto detallar cada producto c
 La solución en conjunto final del algoritmo sería de esta forma:
 </p>
 ```
+
 Algoritmo Proyecto_sistema_de_costos
 	//Declarar variables del sistema de costo
 	Definir precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2 como real
@@ -231,5 +240,6 @@ Algoritmo Proyecto_sistema_de_costos
 	
 	
 FinAlgoritmo
+
 
 ```
