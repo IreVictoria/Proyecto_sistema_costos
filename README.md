@@ -173,12 +173,16 @@ Y para concluir el algoritmo se nos pide en el proyecto detallar cada producto c
 <p>
 La solución en conjunto final del algoritmo sería de esta forma:
 </p>
+
+
 ```
 
 Algoritmo Proyecto_sistema_de_costos
+
 	//Declarar variables del sistema de costo
 	Definir precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2 como real
 	Definir i,pedidos,cantidad,pedidofinal Como Entero
+
 	//Asignación de valores 
 	precioOriginal<-100
 	descuentocupon<-0.1
@@ -186,6 +190,7 @@ Algoritmo Proyecto_sistema_de_costos
 	descuentoporcantidad<-0.05
 	costoenvio<-16
 	pesopaquete<-3
+
 	//Realizar cálculo para cupón de descuento 
 	descuentoCupon<-precioOriginal-(precioOriginal*0.1)
 	//Realizar cálculo para aplicar el IVA al producto con descuento
@@ -198,6 +203,7 @@ Algoritmo Proyecto_sistema_de_costos
 	precioFinal1<-(precioIVA*1)+costoEnvio
 	//Realizar cálculo del producto final más el envío de dos pares
 	precioFinal2<-(descuentoxCantidad*2)+costoEnvio
+
 	//Crear un array para realizar lista de pedidos de los productos
 	Dimension pedidos[1]	
 	//Realizar ingreso de pedidos 
@@ -212,6 +218,7 @@ Algoritmo Proyecto_sistema_de_costos
 			Escribir pedidos[i]
 		FinSi
 	Fin Para
+
 	//Agregar precio y cantidad del producto pedido por el cliente
 	Escribir "Ingrese cantidad de producto solicitado por el cliente:"
 	leer cantidad
@@ -220,6 +227,7 @@ Algoritmo Proyecto_sistema_de_costos
 	SiNo
 		Escribir "Si lleva 1 par se aplica descuento cupón del 10% y el producto queda en un valor de $",precioIVA 
 	Fin Si
+
 	// Calculo final del producto más el envío 
 	Escribir "Ingrese cantidad final del pedido:"
 	Leer pedidoFinal
@@ -228,6 +236,7 @@ Algoritmo Proyecto_sistema_de_costos
 	SiNo
 		Escribir "El precio total de 1 par más el costo de envío es de $", precioFinal1
 	Fin Si
+
 	//Mostrar valores desglosados 
 	Escribir "Los valores deglosados de los productos son:"
 	Escribir "El precio original del producto es de = $", precioOriginal
@@ -240,6 +249,5 @@ Algoritmo Proyecto_sistema_de_costos
 	
 	
 FinAlgoritmo
-
 
 ```
