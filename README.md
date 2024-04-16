@@ -64,9 +64,9 @@ Primero debemos declarar las variables de nuestro algoritmo:
 - `i,pedidos,descuento,pedidofinal`, estas variables serán declaradas como  enteros ya que estas serán utilizadas para controlar los bucles y las estructuras condicionales para realizar cálculos.
 
 ```
-Definir precioOriginal, descuentoCupon, precioIVA, descuentoxCantidad, costoEnvio, precioFinal1, precioFinal2 como real
+Definir precioOriginal,descuentoCupon,precioIVA,descuentoxCantidad,costoEnvio,precioFinal1,precioFinal2 como real
 
-	Definir i, pedidos, descuento, pedidofinal Como Entero
+	Definir i,pedidos,descuento,pedidofinal Como Entero
 ```
 
 <p>
@@ -75,7 +75,6 @@ Se realiza asignación de valores según los datos entregados en el proyecto.
 
 ```
 	//Asignación de valores
-
 	precioOriginal<-100
 	descuentocupon<-0.1
 	iva<-1.12
@@ -142,7 +141,6 @@ Una vez realizado esta parte del algoritmo se hará una estructura de control co
 
 	Escribir "Ingrese cantidad de producto solicitado por el cliente:"
 	leer cantidad
-
 	Si cantidad>=2 Entonces
 		Escribir "Si lleva 2 pares se aplica descuento del 5% donde cada producto queda en un valor de $",descuentoxCantidad
 	SiNo
@@ -163,7 +161,6 @@ Ahora realizaremos nuevamente otra estructura de control condicional `si... Ento
 
 	Escribir "Ingrese cantidad final del pedido:"
 	Leer pedidoFinal
-
 	Si pedidoFinal>=2 Entonces
 		Escribir "El precio total de 2 pares más el costo de envío es de $", precioFinal2
 	SiNo
